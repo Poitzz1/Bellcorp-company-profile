@@ -186,7 +186,42 @@ nav a:hover {
   flex-direction: column;
   gap: 1rem;
 }
-
+input[type="text"]
+{
+    background-color: #a9a5a5;
+    border-radius: 10px;
+    height: 30px;
+}
+input[type="email"]
+{
+    background-color: #a9a5a5;
+    border-radius: 10px;
+    height: 30px;
+}
+input[type="tel"]
+{
+    background-color: #a9a5a5;
+    border-radius: 10px;
+    height: 30px;
+}
+input[type="text"]:focus
+{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 30px;
+}
+input[type="email"]:focus
+{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 30px;
+}
+input[type="tel"]:focus
+{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 30px;
+}
 
 .contact input[type="submit"] {
   background: #0066cc;
